@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Music Player</title>
+    <meta charset="utf-8">
+    <meta name= 'author' content="Nikhil Seth">
+    <meta name ='keywords' content= 'web development, front-end web development, front-end projects for beginers'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+<body id='body-styling'>
+
+    <header id='header-styling'>
+
+        <nav id='navigation-bar'>
+
+            <div class= 'brand-icon-box'>
+                <span class='brand-icon-image'>
+                    <img src='music-images/icon.png'>
+                </span>
+
+                <span> Spotify Studio
+                </span>      
+
+            </div>
+
+            <div class='favourites'> <h3> <a href="#favourites"> Favourites </a>  <h3> 
+            </div>
+
+            <div class='search-section'>
+
+                <button type='submit'>
+                    <img src='music-images/search3.png'>
+                </button>
+
+                <div class='search-form'>
+                    <form>
+                        <input type="text" name='search' id='Search' placeholder="search">
+                    </form>
+                </div>
+
+            </div>
+
+
+            <div class='profile-pic'>
+                <img src='music-images/profile.jpg'>
+            </div>
+
+
+        </nav>
+    </header>
+
+        <main>
+
+            <div id='carousel'>
+                <div class='carousel-image-div'>
+                    <img src="music-images/carousel1.jpg">
+                </div>
+
+                <div class='carousel-image-div'>
+                    <img src="music-images/carousel2.jpg">
+                </div>
+
+                <div class="carousel-image-div">
+                    <img src="music-images/carousel3.jpg">
+                </div>
+
+                <div class="carousel-image-div">
+                    <img src="music-images/carousel4.jpg">
+                </div>                 
+
+            </div>
+
+            <div id='popular-artist'>
+                <h1 class='section-heading'>
+                    'Popular Artists'
+                </h1>
+
+                <div id='popular-artist-parent-div'>
+                    <div class='popular-artist-child-div'>
+                        <img src='music-images/artist1.jfif'>
+                        <h4 class='artist-name'> Ed Sheeran </h4>
+                    </div>
+
+                    <div class='popular-artist-child-div'>
+                        <img src='music-images/artist2.jfif'>
+                        <h4 class='artist-name'> ColdPlay </h4>
+                    </div>
+
+                    <div class='popular-artist-child-div'>
+                        <img src='music-images/artist3.jpg'>
+                        <h4 class='artist-name'> Zayn </h4>
+                    </div>
+
+                    <div class='popular-artist-child-div'>
+                        <img src='music-images/artist5.jfif'>
+                        <h4 class='artist-name'> Imagine Dragon </h4>
+                    </div>
+
+                    <div class='popular-artist-child-div'>
+                        <img src='music-images/artist6.webp'>
+                        <h4 class='artist-name'> Bruno Mars </h4>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id= 'latest-release'>
+                <h1 class='section-heading'>
+                    'Latest Release'
+                </h1>
+
+                <div id= 'latest-release-parent-div'>
+
+                    <div class='latest-release-child-div'>
+                        <div class= 'latest-release-image album-1'>
+
+                        </div>
+
+                        <div class='latest-release-details'>
+                            <h4 class='song-name'> Shape of You</h4>
+                            <p class='release-date'> Aug 11, 2017</p>
+                        </div>
+
+                    </div>
+                    <div class='latest-release-child-div'>
+                        <div class= 'latest-release-image album-1'>
+
+                        </div>
+
+                        <div class='latest-release-details'>
+                            <h4 class='song-name'> Shape of You</h4>
+                            <p class='release-date'> Aug 11, 2017</p>
+                        </div>
+
+                    </div>
+                    <div class='latest-release-child-div'>
+                        <div class= 'latest-release-image album-1'>
+
+                        </div>
+
+                        <div class='latest-release-details'>
+                            <h4 class='song-name'> Shape of You</h4>
+                            <p class='release-date'> Aug 11, 2017</p>
+                        </div>
+
+                    </div>
+                    <div class='latest-release-child-div'>
+                        <div class= 'latest-release-image album-1'>
+
+                        </div>
+
+                        <div class='latest-release-details'>
+                            <h4 class='song-name'> Shape of You</h4>
+                            <p class='release-date'> Aug 11, 2017</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div id= 'audio-bar'>
+
+                <div id='play-pause'>
+                    <audio controls>
+                        
+                        <source src="D:\Coding Ninjas\Front End Development\MyProjects\Major-Project-Music-Player\file_example_MP3_700KB.mp3" type="audio/mp3">
+
+                        Your browser does not support the audio element.
+                    </audio>
+
+                </div>
+            </div>
+
+
+
+
+
+            <div id='music-genre'>
+
+                <div id='music-genre-parent-div'>
+
+                    <div class='music-genre-child-div genre-1'>
+                        <p> Love </p>
+                    </div>
+                    <div class='music-genre-child-div genre-2'>
+                        <p> Retro </p>
+                    </div>
+                    <div class='music-genre-child-div genre-3'>
+                        <p> Chill </p>
+                    </div>
+                    <div class='music-genre-child-div genre-4'>
+                        <p> Workout </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div id='music-mood'>
+
+                <div id='music-mood-parent-div'>
+
+                    <div class='music-mood-child-div mood-1'>
+                        <p>Party </p>
+                    </div>
+
+                    <div class='music-mood-child-div mood-2'>
+                        <p> Relax </p>
+                    </div>
+
+                    <div class='music-mood-child-div mood-3'>
+                        <p> Road Trip </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div id='latest-english'>
+                <h1 class='section-heading'>
+                    'Latest English'
+                </h1>
+
+                <div id='latest-english-parent-div'>
+
+                    <div class='latest-english-child-div'>
+                        <img src='music-images/song1.jpg'>
+                        <h4 class='song-name'> Shape of You</h4>
+                        <p class='release-date'> Aug 11, 2017</p>
+                    </div>
+
+                    <div class='latest-english-child-div'>
+                        <img src='music-images/song2.webp'>
+                        <h4 class='song-name'> Despacito</h4>
+                        <p class='release-date'> Sep 19, 2021 </p>
+                    </div>
+
+                    <div class='latest-english-child-div'>
+                        <img src='music-images/song3.jpg'>
+                        <h4 class='song-name'> Witness</h4>
+                        <p class='release-date'> May 21, 2006 </p>
+                    </div>
+
+                    <div class='latest-english-child-div'>
+                        <img src='music-images/song4.jpg'>
+                        <h4 class='song-name'> No Frauds</h4>
+                        <p class='release-date'> Feb 4, 2010</p>
+                    </div>
+
+                    <div class='latest-english-child-div'>
+                        <img src='music-images/song5.jfif'>
+                        <h4 class='song-name'> Power</h4>
+                        <p class='release-date'> March 29, 2015</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id='latest-hindi'>
+                <h1 class='section-heading'>
+                    'Latest Hindi'
+                </h1>
+
+                <div id='latest-english-parent-div'>
+
+                    <div class='latest-english-child-div'>
+                        <img src='music-images/song1.jpg'>
+                        <h4 class='song-name'> Shape of You</h4>
+                        <p class='release-date'> Aug 11, 2017</p>
+                    </div>
+
+                    <div class='latest-english-child-div'>
+                        <img src='music-images/song2.webp'>
+                        <h4 class='song-name'> Despacito</h4>
+                        <p class='release-date'> Sep 19, 2021 </p>
+                    </div>
+
+                    <div class='latest-english-child-div'>
+                        <img src='music-images/song3.jpg'>
+                        <h4 class='song-name'> Witness</h4>
+                        <p class='release-date'> May 21, 2006 </p>
+                    </div>
+
+                    <div class='latest-english-child-div'>
+                        <img src='music-images/song4.jpg'>
+                        <h4 class='song-name'> No Frauds</h4>
+                        <p class='release-date'> Feb 4, 2010</p>
+                    </div>
+
+                    <div class='latest-english-child-div'>
+                        <img src='music-images/song5.jfif'>
+                        <h4 class='song-name'> Power</h4>
+                        <p class='release-date'> March 29, 2015</p>
+                    </div>
+
+                </div>
+
+            </div>            
+
+        </main>
+
+        <div id='queue'>
+
+            <div id='queue-upper-section'>
+                <h3> Queue </h3>
+
+                <h5> Queue </h5>
+            </div>
+
+            
+            <div id='queue-lower-section'class= 'example'>
+
+                <div class='queue-song-section'>
+                    <div class='serial-number'>
+                        01
+                    </div>
+                    <div class='queue-song-image queue-image-1'>
+                    </div>
+                    <div class='queue-song-name'>
+                        <h5> Mirage </h5>
+                        <p> Else  </p>
+                    </div>
+                    <div class='queue-song-favourite-icon'>
+                        <img src='music-images/heart2.png'>
+                    </div>
+                </div>
+
+                <div class='queue-song-section'>
+                    <div class='serial-number'>
+                        01
+                    </div>
+                    <div class='queue-song-image queue-image-2'>
+                    </div>
+                    <div class='queue-song-name'>
+                        <h5> Mirage </h5>
+                        <p> Else  </p>
+                    </div>
+                    <div class='queue-song-favourite-icon'>
+                        <img src='music-images/heart2.png'>
+                    </div>
+                </div>
+
+                <div class='queue-song-section'>
+                    <div class='serial-number'>
+                        01
+                    </div>
+                    <div class='queue-song-image queue-image-3'>
+                    </div>
+                    <div class='queue-song-name'>
+                        <h5> Mirage </h5>
+                        <p> Else  </p>
+                    </div>
+                    <div class='queue-song-favourite-icon'>
+                        <img src='music-images/heart2.png'>
+                    </div>
+                </div>
+
+                <div class='queue-song-section'>
+                    <div class='serial-number'>
+                        01
+                    </div>
+                    <div class='queue-song-image queue-image-4'>
+                    </div>
+                    <div class='queue-song-name'>
+                        <h5> Mirage </h5>
+                        <p> Else  </p>
+                    </div>
+                    <div class='queue-song-favourite-icon'>
+                        <img src='music-images/heart2.png'>
+                    </div>
+                </div>
+
+                <div class='queue-song-section'>
+                    <div class='serial-number'>
+                        01
+                    </div>
+                    <div class='queue-song-image queue-image-5'>
+                    </div>
+                    <div class='queue-song-name'>
+                        <h5> Mirage </h5>
+                        <p> Else  </p>
+                    </div>
+                    <div class='queue-song-favourite-icon'>
+                        <img src='music-images/heart2.png'>
+                    </div>
+                </div>
+
+
+                <div class='queue-song-section'>
+                    <div class='serial-number'>
+                        01
+                    </div>
+                    <div class='queue-song-image queue-image-1'>
+                    </div>
+                    <div class='queue-song-name'>
+                        <h5> Mirage </h5>
+                        <p> Else  </p>
+                    </div>
+                    <div class='queue-song-favourite-icon'>
+                        <img src='music-images/heart2.png'>
+                    </div>
+                </div>
+
+
+                <div class='queue-song-section'>
+                    <div class='serial-number'>
+                        01
+                    </div>
+                    <div class='queue-song-image queue-image-2'>
+                    </div>
+                    <div class='queue-song-name'>
+                        <h5> Mirage </h5>
+                        <p> Else  </p>
+                    </div>
+                    <div class='queue-song-favourite-icon'>
+                        <img src='music-images/heart2.png'>
+                    </div>
+                </div>
+
+                <div class='queue-song-section'>
+                    <div class='serial-number'>
+                        01
+                    </div>
+                    <div class='queue-song-image queue-image-3'>
+                    </div>
+                    <div class='queue-song-name'>
+                        <h5> Mirage </h5>
+                        <p> Else  </p>
+                    </div>
+                    <div class='queue-song-favourite-icon'>
+                        <img src='music-images/heart2.png'>
+                    </div>
+                </div>
+
+                <div class='queue-song-section'>
+                    <div class='serial-number'>
+                        01
+                    </div>
+                    <div class='queue-song-image queue-image-4'>
+                    </div>
+                    <div class='queue-song-name'>
+                        <h5> Mirage </h5>
+                        <p> Else  </p>
+                    </div>
+                    <div class='queue-song-favourite-icon'>
+                        <img src='music-images/heart2.png'>
+                    </div>
+                </div>
+
+                <div class='queue-song-section'>
+                    <div class='serial-number'>
+                        01
+                    </div>
+                    <div class='queue-song-image queue-image-5'>
+                    </div>
+                    <div class='queue-song-name'>
+                        <h5> Mirage </h5>
+                        <p> Else  </p>
+                    </div>
+                    <div class='queue-song-favourite-icon'>
+                        <img src='music-images/heart2.png'>
+                    </div>
+                </div>
+
+                <div class='queue-song-section'>
+                    <div class='serial-number'>
+                        01
+                    </div>
+                    <div class='queue-song-image queue-image-1'>
+                    </div>
+                    <div class='queue-song-name'>
+                        <h5> Mirage </h5>
+                        <p> Else  </p>
+                    </div>
+                    <div class='queue-song-favourite-icon'>
+                        <img src='music-images/heart2.png'>
+                    </div>
+                </div>
+
+                <div class='queue-song-section'>
+                    <div class='serial-number'>
+                        01
+                    </div>
+                    <div class='queue-song-image queue-image-2'>
+                    </div>
+                    <div class='queue-song-name'>
+                        <h5> Mirage </h5>
+                        <p> Else  </p>
+                    </div>
+                    <div class='queue-song-favourite-icon'>
+                        <img src='music-images/heart2.png'>
+                    </div>
+                </div>
+        </div>
+
+
+
+
+
